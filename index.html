@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- pour les icônes des compétences, tu peux ajouter FontAwesome -->
+  <script src="https://kit.fontawesome.com/TON_KIT_ID.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>Bonjour je suis Mohamed Diop</h1>
+    <p>Développeur Web – Full-Stack</p>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#skills">Compétences</a>
+      <a href="#experience">Expérience</a>
+      <a href="#education">Formation</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. À propos de moi -->
+    <section id="about">
+      <h2>À propos de moi</h2>
+      <p>
+        Je suis développeur web depuis 2 années. Passionné par… l'informatique et tout ce qui est intelligence artifiel..
+      </p>
+    </section>
+
+    <!-- 2. Compétences -->
+    <section id="skills">
+      <h2>Compétences</h2>
+      <div class="skill">
+        <span>HTML & CSS</span>
+        <div class="bar"><div class="progress" data-level="90%"></div></div>
+      </div>
+      <div class="skill">
+        <span>JavaScript</span>
+        <div class="bar"><div class="progress" data-level="80%"></div></div>
+      </div>
+      <div class="skill">
+        <span>React</span>
+        <div class="bar"><div class="progress" data-level="70%"></div></bar></div>
+      </div>
+      <!-- ajoute d’autres compétences de la même façon -->
+    </section>
+
+    <!-- 3. Expérience professionnelle -->
+    <section id="experience">
+      <h2>Expérience</h2>
+      <div class="job">
+        <h3>Développeur Web – Entreprise Univers Professionnel</h3>
+        <span class="dates">Janv. 2023 – Aujourd’hui</span>
+        <ul>
+          <li>Création d’applications React/Vue pour…</li>
+          <li>Maintenance et optimisation SEO…</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Stage Développeur – Entreprise Univers Professionnel  </h3>
+        <span class="dates">Juin 2022 – Déc. 2022</span>
+        <ul>
+          <li>Refonte du site…</li>
+          <li>Automatisation de tâches avec Node.js…</li>
+        </ul>
+      </div>
+      <!-- autres expériences -->
+    </section>
+
+    <!-- 4. Formation -->
+    <section id="education">
+      <h2>Formation</h2>
+      <div class="school">
+        <h3>Licence 1 Informatique – Université Univers Professionnel </h3>
+        <span class="dates">2022 – 2023</span>
+      </div>
+      <div class="school">
+        <h3>Licence 2 Informatique – Université Virtuel du Senegal </h3>
+        <span class="dates">2023 – 2024</span>
+      </div>
+    </section>
+
+    
+
+    <!-- 6. Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="https://formspree.io/f/xxxxx" method="POST">
+        <input type="text" name="name" placeholder="Nom" required>
+        <input type="email" name="_replyto" placeholder="Email" required>
+        <textarea name="message" placeholder="Ton message…" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mohamed Diop – <a href="mailto:mon.email@example.com">Amethdiop0088@gmail.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
